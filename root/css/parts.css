@@ -1,0 +1,610 @@
+@charset "UTF-8";
+
+/*
+ * サイトで共通使用する
+ * 汎用パーツ
+ * を記載
+ *
+ * General Parts
+ * Site Parts
+ * Javascript Parts
+ */
+
+
+/* ==========================================================
+[ General Parts CSS - Contents ]
+
+※使用しないものでも削除せず残す
+
+float
+font
+line-height
+margin
+padding
+text-align
+text-indent
+text-decoration
+
+========================================================== */
+
+
+
+/* ---------------------------------------------
+*   float
+--------------------------------------------- */
+.fl_left {
+	float: left;
+}
+.fl_right {
+	float: right;
+}
+.fl_center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+
+/* ---------------------------------------------
+*   font（font-sizeは汎用パーツ化しないこと）
+--------------------------------------------- */
+
+
+/* font-color
+--------------------------------------------- */
+.fc_red {
+	color: #f00;
+}
+.fc_blue {
+	color: #00f;
+}
+
+
+/* font-style
+--------------------------------------------- */
+.fs_italic {
+	font-style: italic;
+}
+
+
+/* font-weight
+--------------------------------------------- */
+.fw_b {
+	font-weight: bold !important;
+}
+.fw_n {
+	font-weight: normal !important;
+}
+
+
+
+/* ---------------------------------------------
+*   line-height
+--------------------------------------------- */
+.lh_1-8 {
+	line-height: 1.8 !important;
+}
+.lh_2 {
+	line-height: 2 !important;
+}
+
+
+
+/* ---------------------------------------------
+*   margin
+--------------------------------------------- */
+
+
+/* margin-top
+--------------------------------------------- */
+.mgt0 {
+	margin-top: 0 !important;
+}
+.mgt5 {
+	margin-top: 5px !important;
+}
+.mgt10 {
+	margin-top: 10px !important;
+}
+.mgt15 {
+	margin-top: 15px !important;
+}
+.mgt20 {
+	margin-top: 20px !important;
+}
+.mgt25 {
+	margin-top: 25px !important;
+}
+.mgt30 {
+	margin-top: 30px !important;
+}
+.mgt35 {
+	margin-top: 35px !important;
+}
+.mgt40 {
+	margin-top: 40px !important;
+}
+.mgt45 {
+	margin-top: 45px !important;
+}
+.mgt50 {
+	margin-top: 50px !important;
+}
+.mgt55 {
+	margin-top: 55px !important;
+}
+.mgt60 {
+	margin-top: 60px !important;
+}
+.mgt65 {
+	margin-top: 65px !important;
+}
+.mgt70 {
+	margin-top: 70px !important;
+}
+.mgt75 {
+	margin-top: 75px !important;
+}
+.mgt80 {
+	margin-top: 80px !important;
+}
+.mgt85 {
+	margin-top: 85px !important;
+}
+.mgt90 {
+	margin-top: 90px !important;
+}
+.mgt95 {
+	margin-top: 95px !important;
+}
+.mgt100 {
+	margin-top: 100px !important;
+}
+@media screen and (max-width: 738px) {
+	.mgt0 {
+		margin-top: 0 !important;
+	}
+	.mgt5 {
+		margin-top: 2.5px !important;
+	}
+	.mgt10 {
+		margin-top: 5px !important;
+	}
+	.mgt15 {
+		margin-top: 7.5px !important;
+	}
+	.mgt20 {
+		margin-top: 10px !important;
+	}
+	.mgt25 {
+		margin-top: 12.5px !important;
+	}
+	.mgt30 {
+		margin-top: 15px !important;
+	}
+	.mgt35 {
+		margin-top: 17.5px !important;
+	}
+	.mgt40 {
+		margin-top: 20px !important;
+	}
+	.mgt45 {
+		margin-top: 22.5px !important;
+	}
+	.mgt50 {
+		margin-top: 25px !important;
+	}
+	.mgt55 {
+		margin-top: 27.5px !important;
+	}
+	.mgt60 {
+		margin-top: 30px !important;
+	}
+	.mgt65 {
+		margin-top: 32.5px !important;
+	}
+	.mgt70 {
+		margin-top: 35px !important;
+	}
+	.mgt75 {
+		margin-top: 37.5px !important;
+	}
+	.mgt80 {
+		margin-top: 40px !important;
+	}
+	.mgt85 {
+		margin-top: 42.5px !important;
+	}
+	.mgt90 {
+		margin-top: 45px !important;
+	}
+	.mgt95 {
+		margin-top: 47.5px !important;
+	}
+	.mgt100 {
+		margin-top: 50px !important;
+	}
+}
+
+
+/* margin-bottom
+--------------------------------------------- */
+.mgb0 {
+	margin-bottom: 0 !important;
+}
+.mgb5 {
+	margin-bottom: 5px !important;
+}
+.mgb10 {
+	margin-bottom: 10px !important;
+}
+.mgb15 {
+	margin-bottom: 15px !important;
+}
+.mgb20 {
+	margin-bottom: 20px !important;
+}
+.mgb25 {
+	margin-bottom: 25px !important;
+}
+.mgb30 {
+	margin-bottom: 30px !important;
+}
+.mgb35 {
+	margin-bottom: 35px !important;
+}
+.mgb40 {
+	margin-bottom: 40px !important;
+}
+.mgb45 {
+	margin-bottom: 45px !important;
+}
+.mgb50 {
+	margin-bottom: 50px !important;
+}
+.mgb55 {
+	margin-bottom: 55px !important;
+}
+.mgb60 {
+	margin-bottom: 60px !important;
+}
+.mgb65 {
+	margin-bottom: 65px !important;
+}
+.mgb70 {
+	margin-bottom: 70px !important;
+}
+.mgb75 {
+	margin-bottom: 75px !important;
+}
+.mgb80 {
+	margin-bottom: 80px !important;
+}
+.mgb85 {
+	margin-bottom: 85px !important;
+}
+.mgb90 {
+	margin-bottom: 90px !important;
+}
+.mgb95 {
+	margin-bottom: 95px !important;
+}
+.mgb100 {
+	margin-bottom: 100px !important;
+}
+@media screen and (max-width: 738px) {
+	.mgb0 {
+		margin-bottom: 0 !important;
+	}
+	.mgb5 {
+		margin-bottom: 2.5px !important;
+	}
+	.mgb10 {
+		margin-bottom: 5px !important;
+	}
+	.mgb15 {
+		margin-bottom: 7.5px !important;
+	}
+	.mgb20 {
+		margin-bottom: 10px !important;
+	}
+	.mgb25 {
+		margin-bottom: 12.5px !important;
+	}
+	.mgb30 {
+		margin-bottom: 15px !important;
+	}
+	.mgb35 {
+		margin-bottom: 17.5px !important;
+	}
+	.mgb40 {
+		margin-bottom: 20px !important;
+	}
+	.mgb45 {
+		margin-bottom: 22.5px !important;
+	}
+	.mgb50 {
+		margin-bottom: 25px !important;
+	}
+	.mgb55 {
+		margin-bottom: 27.5px !important;
+	}
+	.mgb60 {
+		margin-bottom: 30px !important;
+	}
+	.mgb65 {
+		margin-bottom: 32.5px !important;
+	}
+	.mgb70 {
+		margin-bottom: 35px !important;
+	}
+	.mgb75 {
+		margin-bottom: 37.5px !important;
+	}
+	.mgb80 {
+		margin-bottom: 40px !important;
+	}
+	.mgb85 {
+		margin-bottom: 42.5px !important;
+	}
+	.mgb90 {
+		margin-bottom: 45px !important;
+	}
+	.mgb95 {
+		margin-bottom: 47.5px !important;
+	}
+	.mgb100 {
+		margin-bottom: 50px !important;
+	}
+}
+
+
+
+/* ---------------------------------------------
+*   padding
+--------------------------------------------- */
+
+
+/* padding-top
+--------------------------------------------- */
+.pdt0 {
+	padding-top: 0 !important;
+}
+
+
+/* padding-bottom
+--------------------------------------------- */
+.pdb0 {
+	padding-bottom: 0 !important;
+}
+
+
+
+/* ---------------------------------------------
+*   text-align
+--------------------------------------------- */
+.al_center {
+	text-align: center !important;
+}
+.al_left {
+	text-align: left !important;
+}
+.al_right {
+	text-align: right !important;
+}
+
+
+
+/* ---------------------------------------------
+*   text-indent
+--------------------------------------------- */
+.ti_1 {
+	padding-left: 1em;
+	text-indent: -1em;
+}
+.ti_1-5 {
+	padding-left: 1.5em;
+	text-indent: -1.5em;
+}
+.ti_2 {
+	padding-left: 2em;
+	text-indent: -2em;
+}
+
+
+
+/* ---------------------------------------------
+*   text-decoration
+--------------------------------------------- */
+
+
+/* underline
+--------------------------------------------- */
+.td_underline {
+	text-decoration: underline !important;
+}
+
+
+/* link underline
+--------------------------------------------- */
+.td_underline_before {
+	text-decoration: underline !important;
+}
+.td_underline_before:hover {
+	text-decoration: none !important;
+}
+.td_underline_after {
+	text-decoration: none !important;
+}
+.td_underline_after:hover {
+	text-decoration: underline !important;
+}
+
+
+
+
+/* ==========================================================
+[ Site Parts CSS - Contents ]
+
+※使用しないものは以下の目次、各デフォルト記述も含めて削除すること
+
+bg
+box
+button
+icon
+label
+text
+title
+wysiwyg（Wordpress以外の案件の場合は必ず削除すること）
+
+========================================================== */
+
+
+
+/* ---------------------------------------------
+*   bg
+--------------------------------------------- */
+.bg_ {}
+
+
+
+/* ---------------------------------------------
+*   box
+--------------------------------------------- */
+.box_ {}
+
+
+
+/* ---------------------------------------------
+*   button
+--------------------------------------------- */
+.button_ {}
+
+
+
+/* ---------------------------------------------
+*   icon
+--------------------------------------------- */
+.icon_ {}
+
+
+
+/* ---------------------------------------------
+*   label
+--------------------------------------------- */
+.label_ {}
+
+
+
+/* ---------------------------------------------
+*   text
+--------------------------------------------- */
+.text_ {}
+
+
+
+/* ---------------------------------------------
+*   title
+--------------------------------------------- */
+.title_ {}
+
+
+
+/* ---------------------------------------------
+*   wysiwyg (Wordpress案件以外は削除すること)
+--------------------------------------------- */
+.wysiwyg:after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+
+/* wysiwyg default
+--------------------------------------------- */
+.wysiwyg sup {
+	vertical-align: super;
+	font-size: smaller;
+}
+.wysiwyg sub {
+	vertical-align: sub;
+	font-size: smaller;
+}
+.wysiwyg h1 {
+	font-size: 2em;
+}
+.wysiwyg h2 {
+	font-size: 1.5em;
+}
+.wysiwyg h3 {
+	font-size: 1.17em;
+}
+.wysiwyg h4 {
+	font-size: 100%;
+}
+.wysiwyg h5 {
+	font-size: 0.83em;
+}
+.wysiwyg h6 {
+	font-size: 0.67em;
+}
+.wysiwyg h1,
+.wysiwyg h2,
+.wysiwyg h3,
+.wysiwyg h4,
+.wysiwyg h5,
+.wysiwyg h6 {
+	font-weight: bold;
+}
+.wysiwyg i,
+.wysiwyg strong {
+	font-weight: bold;
+}
+.wysiwyg p {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.wysiwyg em {
+	font-style: italic;
+}
+.wysiwyg a {
+	color: #43a0c0;
+	text-decoration: underline;
+}
+.wysiwyg a:hover {
+	text-decoration: none;
+}
+.wysiwyg ul {
+	list-style-type: disc;
+	padding-left: 40px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.wysiwyg ol {
+	list-style-type: decimal;
+	padding-left: 40px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+.wysiwyg li {
+	display: list-item;
+	text-align: -webkit-match-parent;
+}
+.wysiwyg blockquote {
+	margin: 1.12em 0;
+}
+
+
+
+
+/* ==========================================================
+[ Javascript Parts CSS - Contents ]
+========================================================== */
+
+
+
+/* ---------------------------------------------
+*   js_
+--------------------------------------------- */
+
+
